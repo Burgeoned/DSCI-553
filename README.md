@@ -35,3 +35,11 @@ Each module represents a fundamental challenge in processing massive, high-dimen
 | 4    | [Community Detection](https://github.com/Burgeoned/DSCI-553/blob/main/Homework%204/Assignment4%20-%20Fall%202025.pdf) | [Python](https://github.com/Burgeoned/DSCI-553/tree/main/Homework%204) | Graph Analytics: Detecting social structures via the Girvan-Newman Algorithm.                      |
 | 5    | [Data Stream Processing](https://github.com/Burgeoned/DSCI-553/blob/main/Homework%205/Assignment%205-Fall%202025.pdf) | [Python](https://github.com/Burgeoned/DSCI-553/tree/main/Homework%205) | Real-Time Data: Bloom Filtering, Flajolet-Martin, and Reservoir Sampling. |
 | 6    | [Massive Clustering](https://github.com/Burgeoned/DSCI-553/blob/main/Homework%206/Assignment%206-FALL%202025.pdf) | [Python](https://github.com/Burgeoned/DSCI-553/tree/main/Homework%206) | High-Dimensional Analysis: Implementing the BFR Algorithm for massive datasets.             |
+
+
+## Technical Implementation
+**Distributed Transparency:** Strictly utilized Spark RDDs (not DataFrames) to ensure deep control over distributed memory management and partitioning logic.
+
+**Operational Constraints:** All systems were optimized to run on standard cluster configurations with a maximum 4GB memory and strict time limits (e.g., <25 min for competition).
+
+**Environment:** Developed for Python 3.6 and Spark 3.1.2.
