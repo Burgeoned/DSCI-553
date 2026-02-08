@@ -4,8 +4,10 @@ Data Mining & Scalable Product Systems
 University of Southern California | MS Applied Data Science
 
 
+
 ## Overview
 This repository serves as a master portfolio of large-scale data mining and product strategy systems. The core focuses on implementing complex algorithms from scratch using Apache Spark (RDD API) to process high-dimensional datasets that exceed single-machine memory constraints.
+
 
 ## Flagship Project
 **Objective:** Engineered a hybrid recommendation system to predict user-business ratings for the Yelp dataset.
@@ -19,6 +21,7 @@ This repository serves as a master portfolio of large-scale data mining and prod
 | Module                                                        | Programming                                                  | Tags                                                      | RMSE     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- | -------- |
 | [Hybrid Recommendation System](https://github.com/Burgeoned/DSCI-553/blob/main/Competition/DSCI%20553%20Competition%20Project%20-%20F2025%20.docx.pdf) | [Python](https://github.com/Burgeoned/DSCI-553/blob/main/Competition/competition.py) | `XGBoost` `Feature Engineering` `Model-based recommendation system` | 0.976939 |
+
 
 
 ## Engineering Modules: Large-Scale Distributed Algorithms
